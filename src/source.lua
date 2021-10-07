@@ -1,5 +1,5 @@
-loadstring("http://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true)
-loadstring("http://raw.githubusercontent.com/LaboratorInc/Steel/master/src/version.lua", true)
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/LaboratorInc/Steel/master/src/version.lua"), true))()
 
 local Plugin = {
 	["PluginName"] = "Steel " + version,
